@@ -14,8 +14,8 @@ const Navbar = () => {
             </div>
             <div className="navbar-auth">
                 <div className="navbar-auth-links">
-                    <Link to="/auth" className='btn btn-secondary'> Login </Link>
-                    <Link to="/auth" className='btn btn-primary'> Signup</Link>
+                    
+                    <Link to="/auth" className='btn btn-primary'> Signup / Login</Link>
                 </div>
             </div>
         </div>
