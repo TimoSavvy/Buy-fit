@@ -1,19 +1,40 @@
+import  Redback from "./Redback.png"
+import CoatBrown from "./CoatBrown.png"
+import Miliback from "./Miliback.png"
+import Boot from "./Boot.png"
+import Blackshoe from "./Blackshoe.png"
+import Brownloafer from "./Brownloafer.png"
+import Coat2 from "./Coat2.png"
+import Coatblack from "./Coatblack.png"
+import Ladydress from "./Ladydress.png"
+import Ladyred from "./Ladyred.png"
+import Reddress from "./Reddress.png"
+import Shirt from "./Shirt.png"
+import Shirtblue from "./Shirtblue.png"
+import Shirtpink from "./Shirtpink.png"
+import Sweat2 from "./Sweat2.png"
+import Sweater from "./Sweater.png"
+import Vansblue from "./Vansblue.png"
+import Vansnavy from "./Vansnavy.png"
+import Wedgown from "./Wedgown.png"
+
 const products = [
   {
     id: 1,
     name: "Wireless Headphones",
     price: 99.99,
     image:
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+      CoatBrown,
     description:
       "Premium wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and professionals.",
   },
+  
   {
     id: 2,
     name: "Smart Watch",
     price: 249.99,
     image:
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+      Miliback,
     description:
       "Feature-rich smartwatch with fitness tracking, heart rate monitor, and smartphone notifications. Water-resistant design.",
   },
@@ -21,8 +42,7 @@ const products = [
     id: 3,
     name: "Laptop Stand",
     price: 49.99,
-    image:
-      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
+    image: Redback,
     description:
       "Ergonomic aluminum laptop stand that improves posture and workspace organization. Adjustable height and angle.",
   },
@@ -31,7 +51,7 @@ const products = [
     name: "Mechanical Keyboard",
     price: 129.99,
     image:
-      "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=500&h=500&fit=crop",
+      Boot,
     description:
       "RGB backlit mechanical keyboard with Cherry MX switches. Perfect for gaming and typing enthusiasts.",
   },
@@ -40,7 +60,7 @@ const products = [
     name: "USB-C Hub",
     price: 39.99,
     image:
-      "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500&h=500&fit=crop",
+      Brownloafer,
     description:
       "Multi-port USB-C hub with HDMI, USB 3.0, and SD card reader. Expand your laptop connectivity.",
   },
@@ -49,7 +69,7 @@ const products = [
     name: "Wireless Mouse",
     price: 29.99,
     image:
-      "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500&h=500&fit=crop",
+      Coat2,
     description:
       "Ergonomic wireless mouse with precision tracking and long battery life. Comfortable for extended use.",
   },
@@ -58,7 +78,7 @@ const products = [
     name: "Monitor Stand",
     price: 79.99,
     image:
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=500&h=500&fit=crop",
+      Blackshoe,
     description:
       "Dual monitor stand with adjustable height and tilt. Frees up desk space and improves ergonomics.",
   },
@@ -67,7 +87,107 @@ const products = [
     name: "Webcam HD",
     price: 89.99,
     image:
-      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&h=500&fit=crop",
+      Coatblack,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 9,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Ladydress,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 10,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Ladyred,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 11,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Reddress,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 12,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Shirt,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 13,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Shirtblue,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   
+   {
+    id: 14,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Sweat2,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 15,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Sweater,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 16,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Vansblue,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 17,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Vansnavy,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+   {
+    id: 18,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Wedgown,
+    description:
+      "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
+  },
+  {
+    id: 19,
+    name: "Webcam HD",
+    price: 89.99,
+    image:
+      Shirtpink,
     description:
       "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
   },
