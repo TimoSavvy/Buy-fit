@@ -8,7 +8,7 @@ import { AuthContext } from "../Context/AuthContext";
 const Auth = () => {
     const [mode, setMode] = useState ("signup");
     const [error, setError] = useState (null);
-    const { signup, user, logout, login } = useContext(AuthContext)
+    const { signup, login } = useContext(AuthContext)
      const {register,handleSubmit, formState: {errors}} = useForm()
      const navigate =useNavigate()
      
@@ -25,18 +25,13 @@ const Auth = () => {
     } else {
         setError(result.error)
     }
-
-
-     console.log(result);
-
     }   
 
   return (
     <div className="page">
         <div className="container">
             <div className="auth-container">
-                {user && <p> Logged in as {user.email} </p>}
-                <button className="btn btn-secondary" onClick={ () => logout()}>Logout</button>
+                
                 <h1 className="page-title"> {mode === "signup" ? "Sign Up" : "Login"} </h1>
                 <form className="auth-form" onSubmit={handleSubmit(onSubmit)} autoComplete="">
                     {error && <div className="error-message">{error}</div> }
