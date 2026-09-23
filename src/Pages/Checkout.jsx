@@ -8,16 +8,10 @@ const Checkout = () => {
   const cartItems = getCartItemsWithProducts();
 
   const total = getCartTotal();
-  const navigate = useNavigate()
+  
   function placeOrder () {
     alert("Order Succesful!!")
     clearCart()
-  }
-
-  if(placeOrder) {
-    navigate("/");
-  } else {
-    alert("Not ordered")
   }
 
 
